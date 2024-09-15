@@ -1,9 +1,9 @@
-package com.mona.adel.hidayah.ui.activities
+package com.mona.adel.playtix.ui.activities
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import com.mona.adel.hidayah.R
+import com.mona.adel.playtix.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

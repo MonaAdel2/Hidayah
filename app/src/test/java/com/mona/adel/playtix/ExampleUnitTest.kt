@@ -1,4 +1,4 @@
-package com.mona.adel.hidayah
+package com.mona.adel.playtix
 
 import org.junit.Test
 

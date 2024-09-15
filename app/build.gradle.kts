@@ -1,15 +1,14 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.mona.adel.hidayah"
+    namespace = "com.mona.adel.playtix"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mona.adel.hidayah"
+        applicationId = "com.mona.adel.playtix"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -46,8 +45,4 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-
-    // firebase
-    implementation(platform("com.google.firebase:firebase-bom:33.3.0"))
-    implementation("com.google.firebase:firebase-analytics")
 }
